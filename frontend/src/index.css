@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #09334d92;
+  color: #ffffff;
+  font-family: 'Inter', -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.admin-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  background: #111;
+  color: white;
+}
+/* 
+.admin-main {
+  flex: 1;
+  padding: 20px;
+}
+
+.admin-navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.product-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.product-card {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.product-card img {
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.delete {
+  background: red;
+  color: white;
+} */

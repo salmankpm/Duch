@@ -1,0 +1,51 @@
+.collection {
+  margin-top: 100px;
+  
+}
+
+.collection h2 {
+  margin: 20px;
+  font-size: 48px;
+}
+
+/* MAIN LAYOUT */
+.layout {
+  display: grid;
+  grid-template-columns: 1.5fr 3fr;
+  gap: 20px;
+}
+
+/* LEFT BIG CARD */
+.side-card {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.side-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* TEXT OVER IMAGE */
+.overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+
+
+
+/* RIGHT GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.category {
+  font-size: 12px;
+  color: #6b7280;
+  margin: 4px 0;
+}

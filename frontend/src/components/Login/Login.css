@@ -1,0 +1,74 @@
+/* BODY CENTER */
+body {
+  background: #dcdcdc;
+  font-family: Arial, sans-serif;
+}
+
+/* CENTER FORM */
+form {
+  width: 360px;
+  margin: 120px auto;
+  padding: 30px;
+
+  background: #4f7f8c; /* teal card */
+  border-radius: 12px;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* TITLE */
+form h2 {
+  color: #2c2c2c;
+  margin-bottom: 20px;
+}
+
+/* INPUT */
+form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+
+  border: none;
+  border-radius: 6px;
+
+  background: #e5e5e5;
+  color: #333;
+}
+
+/* BUTTON */
+form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+
+  border: none;
+  border-radius: 6px;
+
+  background: #1e73d8;
+  color: white;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+/* BUTTON HOVER */
+form button:hover {
+  background: #155bb5;
+}
+
+/* LINK TEXT */
+form p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: white;
+}
+
+form span {
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+}

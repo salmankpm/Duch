@@ -1,0 +1,105 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-links li {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-links li:hover, .nav-links li.active {
+  opacity: 1;
+  font-style: italic;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 20px;
+  
+}
+.icon{
+  background-color: rgba(0, 61, 71, 0.803);
+  color: white;
+ font-size: medium;
+}
+/* ACCOUNT */
+.account {
+  position: relative;
+}
+
+/* DROPDOWN */
+.dropdown {
+  position: absolute;
+  top: 55px;
+  right: 0;
+  width: 170px;
+
+  background: rgba(15, 31, 42, 0.9);
+  backdrop-filter: blur(12px);
+
+  border-radius: 14px;
+  padding: 8px 0;
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+
+  opacity: 0;
+  transform: translateY(10px) scale(0.95);
+  pointer-events: none;
+
+  transition: all 0.25s ease;
+  z-index: 200;
+}
+
+/* SHOW */
+.account.active .dropdown {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+/* ITEMS */
+.dropdown p {
+  padding: 12px 18px;
+  margin: 0;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.85);
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* HOVER */
+.dropdown p:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #00c8ff;
+  padding-left: 24px;
+}
+
+/* DIVIDER */
+.dropdown p:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
