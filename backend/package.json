@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon app.js",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node app.js",
+    "build": "cd ../frontend && npm install && npm run build",
     "postinstall": "cd ../frontend && npm install && npm run build"
   },
   "dependencies": {
