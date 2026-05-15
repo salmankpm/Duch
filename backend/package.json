@@ -7,7 +7,9 @@
   "scripts": {
     "dev": "nodemon app.js",
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "postinstall": "cd ../frontend && npm install && npm run build"
+  
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
